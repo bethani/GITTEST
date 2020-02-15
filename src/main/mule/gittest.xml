@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="gittestFlow" doc:id="58b46d6c-0738-48ad-ae47-cb8e0d17d922" >
 		<http:listener doc:name="Listener" doc:id="e273a1e1-9301-43fb-9a31-21a4c2be0661" config-ref="HTTP_Listener_config" path="/15"/>
 		<set-payload value="group13" doc:name="Set Payload" doc:id="5a154ba6-dd29-4bfd-8531-27a2481115ac" />
+		<logger level="INFO" doc:name="Logger" doc:id="35caf693-dcdc-4177-a67d-d6f28f2af596" />
 	</flow>
 </mule>
